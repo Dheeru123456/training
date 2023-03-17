@@ -146,19 +146,19 @@
 } */
 
 .disc-the {
-    transform: translateX(-125%);
+    /* transform: translateX(-125%); */
     transition-duration: 3s;
-    /* animation-name: young;
-    animation-duration: 14s; */
+     /* animation-name: young; */
+    /* animation-duration: 14s; */
 }
 
-.parent-discover:hover .disc-the {
+/* .disc-the {
     transform: translateX(0%);
 }
 
-.parent-discover:hover .dubai-moru {
+.dubai-moru {
     transform: translateX(0%);
-}
+}  */
 
 .parent-discove {
     text-align: center;
@@ -180,12 +180,14 @@
 .reveal {
     position: relative;
     transform: translateY(150px);
+    transform: translateX(-125%);
     opacity: 0;
-    transition: 1s all ease;
+    transition: 2s all ease;
 }
 
 .reveal.active {
     transform: translateY(0);
+    transform: translateX(0%);
     opacity: 1;
 }
 
@@ -207,10 +209,10 @@
     border-radius: 10px;
 }
 
-.dubai-moru {
+/* .dubai-moru {
     transform: translateX(150%);
     transition-duration: 3s;
-}
+} */
 
 .rectangle-img {
     /* position: absolute; */
@@ -278,14 +280,14 @@
     display: flex;
 }
 
-.card-rec {
+/* .card-rec {
     transform: translateX(-750%);
     transition-duration: 5s;
 }
 
 .parent-card:hover .card-rec {
     transform: translateX(0%);
-}
+} */
 
 .cls-lef:hover {
     background-color: black;
@@ -412,7 +414,7 @@
     margin-top: 5%;
 }
 
-.thom-img {
+/* .thom-img {
     transform: translateX(-125%);
     transition-duration: 3s;
 }
@@ -428,7 +430,7 @@
 
 .parent-stories:hover .our-stories {
     transform: translateX(0%);
-}
+} */
 
 .parent-storie {
     text-align: center;

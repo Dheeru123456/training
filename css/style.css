@@ -222,7 +222,7 @@
     border-radius: 15px;
     height: 29vh;
     /* border: 2px solid; */
-    width: 10.8vw;
+    width: 9.8vw;
     transform: translate(-61px, -182px);
 }
 
@@ -709,12 +709,20 @@ h1 {
     width: 23rem;
 }
 
+.vietnam-card-4 img{
+    height: 42vh;
+}
+
+.vietnam-card-2 img{
+    height: 89vh;
+}
+
 .h-img {
     height: 44vh;
 }
 
 .he-img {
-    height: 46vh;
+    height: 45vh;
 }
 
 /* .star-img {
@@ -817,7 +825,7 @@ h1 {
     /* text-align: center; */
     margin-top: 3%;
     padding: 2%;
-    background-image: url("./Rectangle 4392/aeroplane.png");
+    background-image: url("../images/aeroplane.png");
     background-repeat: no-repeat;
     background-position: 98%;
 }
